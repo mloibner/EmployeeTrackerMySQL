@@ -1,5 +1,5 @@
 {
-  "name": "employeetrackermysql",
+  "name": "employee_tracker",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,16 +8,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mloibner/EmployeeTrackerMySQL.git"
+    "url": "git+https://github.com/roukell/employee_tracker.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mloibner/EmployeeTrackerMySQL/issues"
+    "url": "https://github.com/roukell/employee_tracker/issues"
   },
-  "homepage": "https://github.com/mloibner/EmployeeTrackerMySQL#readme",
+  "homepage": "https://github.com/roukell/employee_tracker#readme",
   "dependencies": {
+    "ascii-art": "^2.5.0",
+    "ascii-art-table": "^1.0.1",
+    "console.table": "^0.10.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
     "inquirer": "^7.3.3",
-    "require": "^2.4.20"
+    "mysql": "^2.18.1"
   }
 }
